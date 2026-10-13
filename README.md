@@ -1,5 +1,9 @@
 # Nilpotent-free spaces of 3 × 3 matrices over 𝔽₃
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23343183.svg)](https://doi.org/10.5281/zenodo.23343183)
+
+Release v1.0.0: [doi:10.5281/zenodo.23343183](https://doi.org/10.5281/zenodo.23343183) (all versions: [doi:10.5281/zenodo.23343182](https://doi.org/10.5281/zenodo.23343182)).
+
 **Result.** Every linear subspace of the 3 × 3 matrices over the field with three elements of
 dimension at least six contains a nonzero nilpotent matrix. The largest dimension of a subspace
 without nonzero nilpotent elements is five, attained by
