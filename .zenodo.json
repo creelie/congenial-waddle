@@ -1,0 +1,40 @@
+{
+  "title": "Nilpotent-free spaces of 3 x 3 matrices over the field with three elements",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    }
+  ],
+  "description": "<p>Wigderson conjectured (arXiv:2609.29177, Conjecture 8) that for every finite field F and every n there is a space of n x n matrices over F of dimension n^2 - binom(n,2) whose only nilpotent element is zero. We show that every six-dimensional space of 3 x 3 matrices over F_3 contains a nonzero nilpotent matrix, so the conjecture fails for F = F_3 and n = 3; the largest possible dimension is five. The conjecture holds for n &lt;= 2 over every finite field and for n = 3 over F_2 and F_5.</p><p>The archive contains the paper (PDF, LaTeX source with the figures as PNG, arXiv tarball), the dated priority check, a Lean 4 development with Mathlib that proves every result of the paper (the finite search is evaluated by compiled code; all other steps use only the standard axioms), and independent exhaustive checks in C, C++ and Python.</p>",
+  "keywords": [
+    "nilpotent matrices",
+    "spaces of matrices",
+    "finite fields",
+    "Gerstenhaber's theorem",
+    "duality",
+    "Lean 4",
+    "15A30",
+    "15A03"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/creelie/congenial-waddle",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "arXiv:2609.29177",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+}
