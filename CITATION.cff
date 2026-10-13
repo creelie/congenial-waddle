@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Nilpotent-free spaces of 3 x 3 matrices over the field with three elements"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    email: d.bhattacharjee@erl-forschung.de
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/creelie/congenial-waddle"
+keywords:
+  - nilpotent matrices
+  - spaces of matrices
+  - finite fields
+  - Gerstenhaber's theorem
+  - Lean 4
+abstract: >-
+  Wigderson conjectured that for every finite field F and every n there is a space of n x n
+  matrices over F of dimension n^2 - binom(n,2) whose only nilpotent element is zero. Every
+  six-dimensional space of 3 x 3 matrices over F_3 contains a nonzero nilpotent matrix, so the
+  conjecture fails for F = F_3 and n = 3; the largest possible dimension is five. The proof is
+  formalised in Lean 4 with Mathlib.
+references:
+  - type: article
+    title: "Duality for matrix space questions"
+    authors:
+      - family-names: Wigderson
+        given-names: Yuval
+    year: 2026
+    identifiers:
+      - type: other
+        value: "arXiv:2609.29177"
